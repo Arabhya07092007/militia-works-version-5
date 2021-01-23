@@ -166,7 +166,6 @@ function setup(){
 
     ani_images();
 
-    player1Body = new Man(-820,3300,45,180);
     player1 = new Players();
 
     camera.on();
@@ -183,9 +182,7 @@ function draw(){
 
     keyPressed() ;
 
-    //player1.mummy();
 
-    console.log(player1Body.position.x)
 
 
 
